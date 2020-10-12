@@ -34,3 +34,31 @@
 1.修改程序存在的Bug
 2.完善库功能
 3.解决库与Activity生命周期同步问题，当Activity异常退出时，能够检测到并取消相关工作
+## How to
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+```
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```
+
+	dependencies {
+	        implementation 'com.github.EricStark:HImageLoader:Tag'
+	}
+        ```
+Share this release:
+
+TweetLink
+That's it! The first time you request a project JitPack checks out the code, builds it and serves the build artifacts (jar, aar).
+
+If the project doesn't have any GitHub Releases you can use the short commit hash or 'master-SNAPSHOT' as the version.
