@@ -31,13 +31,13 @@
 
 ## How to update：
 
-1.修改程序存在的Bug
-2.完善库功能
-3.解决库与Activity生命周期同步问题，当Activity异常退出时，能够检测到并取消相关工作
+1.修改程序存在的Bug  
+2.完善库功能  
+3.解决库与Activity生命周期同步问题，当Activity异常退出时，能够检测到并取消相关工作  
 ## How to
 To get a Git project into your build:
 
-Step 1. Add the JitPack repository to your build file
+### Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories:
 ```
@@ -49,7 +49,7 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
 ```
-Step 2. Add the dependency
+### Step 2. Add the dependency
 ```
 
 	dependencies {
