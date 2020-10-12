@@ -1,6 +1,9 @@
 # HImageLoader
+
 这是一个图片加载、缓存及压缩库
-##How to use：
+
+## How to use：
+
 ```
         /**
          * 设置参数 得到config对象
@@ -21,9 +24,13 @@
         //展示图片
         HImageLoader.displayImage(imageView,config);
 ```
-##Disadvantage:
+
+## Disadvantage:
+
 在没有设置缓存策略时也不能使用压缩策略
-##How to update：
+
+## How to update：
+
 1.修改程序存在的Bug
 2.完善库功能
 3.解决库与Activity生命周期同步问题，当Activity异常退出时，能够检测到并取消相关工作
