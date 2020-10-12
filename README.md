@@ -2,7 +2,7 @@
 
 这是一个图片加载、缓存及压缩库
 
-## How to use：
+## How to use in Activity：
 
 ```
         /**
@@ -34,7 +34,7 @@
 1.修改程序存在的Bug  
 2.完善库功能  
 3.解决库与Activity生命周期同步问题，当Activity异常退出时，能够检测到并取消相关工作  
-## How to
+## How to add dependencies
 To get a Git project into your build:
 
 ### Step 1. Add the JitPack repository to your build file
