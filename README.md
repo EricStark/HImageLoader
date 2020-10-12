@@ -55,7 +55,7 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.EricStark:HImageLoader:Tag'
 	}
-        ```
+```
 Share this release:
 
 TweetLink
